@@ -8,7 +8,7 @@
       "name": "lingstyle-design",
       "source": {
         "source": "local",
-        "path": "./plugins/lingstyle-design"
+        "path": "./"
       },
       "policy": {
         "installation": "AVAILABLE",
