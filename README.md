@@ -11,7 +11,7 @@
 ```text
 请通过 Git marketplace 安装 Lingstyle Design 插件：
 先运行 codex plugin marketplace add mybricks/lingstyle-design-codex-plugin-package，
-再运行 codex plugin add lingstyle-design@lingstyle-design-git，
+再运行 codex plugin add lingstyle-design@lingstyle-design，
 最后运行 codex plugin list 确认插件已启用。
 发布仓库已包含编译产物，无需执行 npm install。
 安装完成后提醒我完全退出并重新启动 Codex，并介绍插件功能和使用方式。

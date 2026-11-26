@@ -2,8 +2,10 @@
   "mcpServers": {
     "lingstyle-design": {
       "command": "node",
-      "args": ["./dist/server.mjs"],
-      "cwd": "."
+      "args": [
+        "./dist/server.mjs"
+      ],
+      "cwd": "./"
     }
   }
 }

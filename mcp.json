@@ -1,11 +1,13 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
     "lingstyle-design": {
+      "type": "stdio",
       "command": "node",
       "args": [
-        "./dist/server.mjs"
+        "${PLUGIN_ROOT}/dist/server.mjs"
       ],
-      "cwd": "."
+      "cwd": "${PLUGIN_ROOT}"
     }
   }
 }
