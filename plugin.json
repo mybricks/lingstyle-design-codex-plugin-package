@@ -1,5 +1,4 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "lingstyle-design",
   "version": "0.1.0",
   "description": "Open the Lingstyle visual designer and develop pages and components in its virtual project files.",

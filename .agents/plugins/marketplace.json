@@ -1,14 +1,14 @@
 {
-  "name": "lingstyle-design",
+  "name": "lingstyle-design-git",
   "interface": {
-    "displayName": "Lingstyle Design"
+    "displayName": "Lingstyle Design Git"
   },
   "plugins": [
     {
       "name": "lingstyle-design",
       "source": {
         "source": "local",
-        "path": "./"
+        "path": "."
       },
       "policy": {
         "installation": "AVAILABLE",

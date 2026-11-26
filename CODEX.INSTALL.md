@@ -1,25 +1,21 @@
-# Lingstyle Design
+# 安装 Lingstyle Design
 
-Lingstyle 可视化设计器插件，版本 0.1.0。
-
-## 安装
-
-需要 Node.js 22.12+，以及支持本地 MCP 服务、MCP Apps 和 thread entrypoint 的 Codex 客户端。
-
-在客户端的插件市场中添加此 Git 仓库：
-
-https://github.com/mybricks/lingstyle-design-codex-plugin-package.git
-
-也可以通过 CLI 添加市场：
+需要 Node.js 22.12+ 和 Codex CLI。
 
 ```sh
-codex plugin marketplace add https://github.com/mybricks/lingstyle-design-codex-plugin-package.git
+codex plugin marketplace add mybricks/lingstyle-design-codex-plugin-package
+codex plugin add lingstyle-design@lingstyle-design-git
+codex plugin list
 ```
 
-然后在插件目录中选择 Lingstyle Design 市场，安装并启用 Lingstyle Design。
-在对话中输入“打开 Lingstyle 面板”。无需安装 npm 依赖或启动开发服务器。
+已注册 marketplace 时可跳过第一步。更新：
 
-## 更新产物
+```sh
+codex plugin marketplace upgrade lingstyle-design-git
+```
 
-本仓库由 lingstyle-design-codex-plugin 源码仓库的 `pnpm package:codex:git` 生成。
-请在源码仓库修改后重新打包，再提交并推送此仓库。
+安装或更新后，完全退出并重新启动 Codex，加载 skill 和 MCP 服务。默认使用远端默认分支，也可在 marketplace add 命令后添加 `--ref <分支名>`。
+
+无需在插件目录执行 npm install。打开可视化设计器需要客户端支持 MCP Apps 和 thread entrypoint。
+
+重启后引用 Lingstyle Design 插件，或发送“打开 Lingstyle 面板”，再在应用中创建或打开项目。可让 Codex 编辑设计器中的虚拟项目文件。

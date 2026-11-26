@@ -9,5 +9,6 @@
     "shortDescription": "Visual design and project code editing",
     "developerName": "Lingstyle",
     "category": "Design"
-  }
+  },
+  "repository": "https://github.com/mybricks/lingstyle-design-codex-plugin-package"
 }
